@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add kafkajs
+
+PATH: 
+  C:\Program Files\Java\jdk1.8.0_202\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\Users\HP\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python311\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\src\flutter\bin;C:\Program Files\PostgreSQL\16\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\HP\AppData\Local\Yarn\Cache\v6\npm-@esbuild-win32-x64-0.19.10-bd123a74f243d2f3a1f046447bb9b363ee25d072-integrity\node_modules\@esbuild\win32-x64\.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "cliente",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@prisma/client": "^5.7.1",
+      "express": "^4.18.2",
+      "kafkajs": "^2.2.4"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.21",
+      "prisma": "^5.7.1",
+      "tsx": "^4.6.2",
+      "typescript": "^5.3.3"
+    },
+    "prisma": {
+      "schema": "prisma/schema.prisma"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

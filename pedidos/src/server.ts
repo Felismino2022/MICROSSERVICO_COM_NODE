@@ -1,5 +1,7 @@
 import express from 'express'
 
+import './infra/provider/kafka/consumers'
+
 const app = express()
 
 const PORT = process.env.PORT ?? 3002
